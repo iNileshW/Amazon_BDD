@@ -1,0 +1,228 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Display tour with valid data",
+        "description": "",
+        "id": "find-tour-\u0026-sort-feature;display-tour-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22921450600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on STA Travel website",
+            "match": {
+              "location": "SearchSteps.user_is_on_STA_Travel_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2593879500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user selects the country as \"India\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "India",
+                  "offset": 33
+                }
+              ],
+              "location": "SearchSteps.the_user_selects_the_country_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8228906700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user clicks on Find a tour button",
+            "match": {
+              "location": "SearchSteps.the_user_clicks_on_Find_a_tour_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2614516200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user is presented with results page",
+            "match": {
+              "location": "SearchSteps.the_user_is_presented_with_results_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 4,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Sort Displayed tour",
+        "description": "",
+        "id": "find-tour-\u0026-sort-feature;sort-displayed-tour",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37623297500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is on STA Travel Tour results website",
+            "match": {
+              "location": "SearchSteps.user_is_on_STA_Travel_Tour_results_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 663297100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The user selects Price (Low-High) from dropdown",
+            "match": {
+              "location": "SearchSteps.the_user_selects_Price_Low_High_from_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 704984300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The user is presented with Tours sorted in (Low-High) Order",
+            "match": {
+              "location": "SearchSteps.the_user_is_presented_with_Tours_sorted_in_Low_High_Order()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 12,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "View more tours",
+        "description": "",
+        "id": "find-tour-\u0026-sort-feature;view-more-tours",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29630918400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on STA Travel Tour results website with results displayed in sorted order",
+            "match": {
+              "location": "SearchSteps.user_is_on_STA_Travel_Tour_results_website_with_results_displayed_in_sorted_order()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9286300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user enters the scrolls down to bottom of page",
+            "match": {
+              "location": "SearchSteps.the_user_enters_the_scrolls_down_to_bottom_of_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 420463100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user clicks on View More button",
+            "match": {
+              "location": "SearchSteps.the_user_clicks_on_View_More_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163426500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The user is presented with more results on page",
+            "match": {
+              "location": "SearchSteps.the_user_is_presented_with_more_results_on_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 471760100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Validate Count of results displayed at top of page match with total results displayed",
+            "match": {
+              "location": "SearchSteps.validate_Count_of_results_displayed_at_top_of_page_match_with_total_results_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 19,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Find Tour \u0026 Sort feature",
+    "description": "",
+    "id": "find-tour-\u0026-sort-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/nwairagade/eclipse-workspace/STA/src/main/java/Features/search.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@ResultsFunctionality"
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="106.046186">
+    <testcase classname="Find Tour &amp; Sort feature" name="Display tour with valid data" time="36.358753">
+        <system-out>
+            <![CDATA[Given User is on STA Travel website.........................................passed
+When The user selects the country as "India"................................passed
+And The user clicks on Find a tour button...................................passed
+Then The user is presented with results page................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Find Tour &amp; Sort feature" name="Sort Displayed tour" time="38.991579">
+        <system-out>
+            <![CDATA[Given User is on STA Travel Tour results website............................passed
+When The user selects Price (Low-High) from dropdown........................passed
+Then The user is presented with Tours sorted in (Low-High) Order............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Find Tour &amp; Sort feature" name="View more tours" time="30.695854">
+        <system-out>
+            <![CDATA[Given User is on STA Travel Tour results website with results displayed in sorted order.passed
+When The user enters the scrolls down to bottom of page.....................passed
+And The user clicks on View More button.....................................passed
+Then The user is presented with more results on page........................passed
+And Validate Count of results displayed at top of page match with total results displayed.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
