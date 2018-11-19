@@ -136,7 +136,8 @@ public class SearchSteps {
 	@When("^The user enters the scrolls down to bottom of page$")
 	public void the_user_enters_the_scrolls_down_to_bottom_of_page(){
 		//Scroll to bottom of page
-		((JavascriptExecutor) driver).executeScript("window.scrollBy(0,250)", "");
+		JavascriptExecutor js = ((JavascriptExecutor) driver);
+		js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
 	}
 
 	@When("^The user clicks on View More button$")
@@ -147,7 +148,8 @@ public class SearchSteps {
 	@Then("^The user is presented with more results on page$")
 	public void the_user_is_presented_with_more_results_on_page(){
 		//Scroll to bottom of page
-		((JavascriptExecutor) driver).executeScript("window.scrollBy(0,250)", "");
+		JavascriptExecutor js = ((JavascriptExecutor) driver);
+		js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
 	}
 
 	@Then("^Validate Count of results displayed at top of page match with total results displayed$")
