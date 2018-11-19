@@ -4,6 +4,7 @@ Feature: Find Tour & Sort feature
 @SmokeTest @RegressionTest 
 Scenario: Display tour with valid data
 
+
 Given User is on STA Travel website
 When The user selects the country as "India"
 And The user clicks on Find a tour button 
