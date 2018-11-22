@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 	@CucumberOptions 
 	(		
 	features = 
-	"C:\\Users\\nwairagade\\eclipse-workspace\\STA\\src\\main\\java\\Features\\search.feature"	
+	"C:\\Users\\nwairagade\\eclipse-workspace\\Vocalink\\src\\main\\java\\Features\\login.feature"	
 	,glue = {"step_definitions"}
 	,plugin = {"pretty","html:test-output", "json:json_output/cucumber.json","junit:junit_xml/cucumber.xml"}
 	,dryRun = false
